@@ -17,10 +17,11 @@ body,input,textarea {
 
 header {
     padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #f3f022;
+    color: #080808;
 
 }
+
 
 
 header nav li {
@@ -30,7 +31,7 @@ header nav li {
 
 }
 header nav li a {
-    color: #ecf0f1;
+    color: #050505;
     text-decoration: none;
 }
 
@@ -41,10 +42,11 @@ header nav li a {
 }
 
 header .container,
- section .container{
+section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .brands-list img {
@@ -71,7 +73,7 @@ section h2 {
 
 }
 section {
-    color: #182c61;
+    color: #070707;
 }
 
 section p {
@@ -96,6 +98,8 @@ section p {
     text-decoration: none; 
 }
 
+
+
 #contact .container {
     display: block;
 
@@ -119,26 +123,26 @@ form textarea {  /*para sumir o poder de dimencao da caixa */
     margin-bottom: 16px;
 }
 form button {
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #f3f022;
+    color: #070707;
     border: none;
     cursor: pointer;
 
 }
 /* para mudar de cor */*
 form button:hover {
-    background-color:#3250a1;
+    background-color:#050505;
 }
 
 /* para editar a cor ao redor da area da caixa */*
 input:focus, textarea:focus {
-    outline-color: #182c61;
+    outline-color: #020202;
 
 }
 
 footer {
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #f3f022;
+    color: #050505;
     padding: 16px 0;
     
 }
